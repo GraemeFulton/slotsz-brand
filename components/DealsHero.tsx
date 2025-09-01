@@ -5,7 +5,7 @@ const DealsHero: React.FC = () => {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   return (
-    <div className="relative overflow-hidden bg-white dark:bg-neutral-900 rounded-2xl shadow-xl border border-gray-200 dark:border-neutral-800">
+    <div className="relative overflow-visible bg-white dark:bg-neutral-900 rounded-2xl shadow-xl border border-gray-200 dark:border-neutral-800">
       
       <div 
         className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_100%_100%,#fe139c80_0%,#fe139c80_4%,transparent_6%),radial-gradient(circle_at_100%_100%,#c71cb880_0%,#c71cb880_10%,transparent_12%),radial-gradient(circle_at_100%_100%,#fe139c33_0%,#fe139c33_16%,transparent_18%)] dark:bg-[radial-gradient(circle_at_100%_100%,#fe139c99_0%,#fe139c99_4%,transparent_6%),radial-gradient(circle_at_100%_100%,#c71cb899_0%,#c71cb899_10%,transparent_12%),radial-gradient(circle_at_100%_100%,#fe139c40_0%,#fe139c40_16%,transparent_18%)] opacity-50"
@@ -41,7 +41,7 @@ const DealsHero: React.FC = () => {
           <img
             src="https://i.postimg.cc/8z7HgxPw/17a88654-b92d-4862-a14c-ba77f3fe9870.png"
             alt="Welcome offer with gold coins and prize tickets"
-            className={`absolute bottom-0 max-w-[fit-content] right-0 h-[100%] w-auto md:h-[115%] transition-opacity duration-500 ${isImageLoaded ? 'opacity-100' : 'opacity-0'}`}
+            className={`absolute bottom-0 max-w-[fit-content] -right-[90px] -mb-[8px] h-[100%] w-auto md:h-[115%] transition-opacity duration-500 ${isImageLoaded ? 'opacity-100' : 'opacity-0'}`}
             onLoad={() => setIsImageLoaded(true)}
           />
         </div>

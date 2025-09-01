@@ -72,10 +72,10 @@ const MainApp: React.FC<{ theme: string; toggleTheme: () => void }> = ({ theme, 
         <WavePattern width={800} height={800} className="top-[10%] left-1/2 opacity-60 dark:opacity-60 -translate-y-1/2" />
         
         <div className="relative z-10 max-w-[1200px] mx-auto px-8 pt-8">
-          <WavePattern width={400} height={400} className="top-[944px] left-[12%] opacity-40 dark:opacity-30 -translate-y-1/2" />
+          <WavePattern width={400} height={400} className="top-[972px] left-[12%] opacity-40 dark:opacity-30 -translate-y-1/2" />
           <StylizedECGIcon2
             aria-hidden="true"
-            className="absolute top-[260px] right-[74px] h-[128px] text-primary pointer-events-none opacity-50 dark:opacity-40 hidden xl:block"
+            className="absolute top-[305px] right-[84px] h-[128px] text-primary pointer-events-none opacity-50 dark:opacity-40 hidden xl:block"
           />
           <PromoBanners />
           <CategoryNav />

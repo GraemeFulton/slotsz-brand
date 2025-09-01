@@ -109,7 +109,7 @@ const PromoBanners: React.FC = () => {
                 {banner.buttonText}
               </button>
                {banner.id === 1 && (
-                <div className="absolute -top-[42px] -right-[24px] flex items-center justify-center pointer-events-none" aria-hidden="true">
+                <div className="absolute -top-[30px] -right-[24px] flex items-center justify-center pointer-events-none" aria-hidden="true">
                   <StylizedECGIcon3 className=" h-[260px] text-primary opacity-50 dark:opacity-40" />
                 </div>
               )}
