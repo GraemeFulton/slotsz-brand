@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
       ></div>
       <div className="absolute inset-0 bg-black/50"></div>
       <div className="relative z-10 max-w-2xl">
-        <h1 className="text-5xl font-semibold tracking-tight">Pulsz: #1 Social Casino</h1>
+        <h1 className="text-5xl font-semibold tracking-tight">Slotsz: #1 Social Casino</h1>
         <p className="mt-4 text-lg text-white/80 max-w-xl mx-auto">
         Daily Coin Rewards abd Over 1000 Free casino-style games
         </p>

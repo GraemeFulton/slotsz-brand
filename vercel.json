@@ -20,7 +20,7 @@
     }
   ],
   "env": {
-    "BASIC_AUTH_USER": "pulsz",
-    "BASIC_AUTH_PASS": "pulsz"
+    "BASIC_AUTH_USER": "slotsz",
+    "BASIC_AUTH_PASS": "slotsz"
   }
 }

@@ -4,7 +4,7 @@ import { HomeIcon, NewIcon, VerifyIcon, Cherries, TableGamesIcon } from './icons
 const categories = [
   { name: 'Home', icon: HomeIcon },
   { name: 'New Releases', icon: NewIcon },
-  { name: 'Pulsz Exclusives', icon: VerifyIcon },
+  { name: 'Slotsz Exclusives', icon: VerifyIcon },
   { name: 'Slot Games', icon: Cherries },
   { name: 'Table Games', icon: TableGamesIcon },
 ];

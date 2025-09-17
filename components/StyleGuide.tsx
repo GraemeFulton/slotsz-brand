@@ -405,7 +405,7 @@ const DecoratedMenuExample: React.FC<{ isCollapsed: boolean; title: string; }> =
               <SubSection title="Logotype Variations" description="The primary brand logo. The appropriate version should be used to ensure high contrast against the background.">
                   <div className="w-full space-y-6">
                       <div>
-                          <SubSection title="Logo" description="The logo mark introduced is a pulsing circle with a central P mark, and was used as a reference point to define other brand elements.">
+                          <SubSection title="Logo" description="The logo mark introduced is a pulsing circle with a central S mark, and was used as a reference point to define other brand elements.">
                           <div className="flex flex-col sm:flex-row items-center gap-8">
                               <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 text-center">
                                   <Logo className="h-10" />
@@ -418,7 +418,7 @@ const DecoratedMenuExample: React.FC<{ isCollapsed: boolean; title: string; }> =
                           </div>
                               </SubSection>
                       </div>
-                      <div className="pt-6 border-t border-gray-200 dark:border-neutral-800">
+                      {/* <div className="pt-6 border-t border-gray-200 dark:border-neutral-800">
                          <SubSection title="Alternative Logo Idea" description="This concept presents an alternative logotype. It's not necessary, but an idea.">
                             <div className="flex flex-col sm:flex-row items-center gap-8">
                                 <div className="p-8 bg-white rounded-xl border border-gray-200 dark:border-neutral-700 text-center">
@@ -435,10 +435,10 @@ const DecoratedMenuExample: React.FC<{ isCollapsed: boolean; title: string; }> =
                               </div>
                             </div>
                         </SubSection>
-                      </div>
+                      </div> */}
                   </div>
               </SubSection>
-              <SubSection title="Logo Mark" description="The brand's abstract logo mark. It can be used in various sizes where the brand is already established.">
+              {/* <SubSection title="Logo Mark" description="The brand's abstract logo mark. It can be used in various sizes where the brand is already established.">
                   <div className="flex items-end gap-8 text-center">
                       <div className="flex flex-col items-center">
                           <img src="https://i.postimg.cc/Vvfp2vsc/Frame-23-6.png" alt="Logo Mark Large" className="w-48" />
@@ -453,7 +453,7 @@ const DecoratedMenuExample: React.FC<{ isCollapsed: boolean; title: string; }> =
                           <p className="text-sm mt-4 text-gray-600 dark:text-neutral-400">Small</p>
                       </div>
                   </div>
-              </SubSection>
+              </SubSection> */}
               {/*<SubSection title="Logo Tile" description="A simplified, tileable version of the logo mark for use as a background pattern or subtle branding element.">
                   <div className="flex items-end gap-8 text-center">
                       <div className="flex flex-col items-center">
