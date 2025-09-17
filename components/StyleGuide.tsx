@@ -401,76 +401,7 @@ const DecoratedMenuExample: React.FC<{ isCollapsed: boolean; title: string; }> =
       <div className="flex flex-1 overflow-hidden">
         <StyleGuideSidebar sections={sections} activeSection={activeSection} onSectionClick={handleSectionClick} />
         <main ref={mainContentRef} className="flex-1 p-8 lg:p-12 max-w-7xl mx-auto overflow-y-auto">
-          <Section id="logo" title="Logo">
-              <SubSection title="Logotype Variations" description="The primary brand logo. The appropriate version should be used to ensure high contrast against the background.">
-                  <div className="w-full space-y-6">
-                      <div>
-                          <SubSection title="Logo" description="The logo mark introduced is a pulsing circle with a central S mark, and was used as a reference point to define other brand elements.">
-                          <div className="flex flex-col sm:flex-row items-center gap-8">
-                              <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 text-center">
-                                  <Logo className="h-10" />
-                                  <p className="text-sm mt-4 text-gray-600">Default (Light BG)</p>
-                              </div>
-                              <div className="dark p-8 bg-neutral-900 rounded-xl border border-neutral-800 text-center">
-                                  <Logo className="h-10" />
-                                  <p className="text-sm mt-4 text-neutral-400">Dark Mode (Dark BG)</p>
-                              </div>
-                          </div>
-                              </SubSection>
-                      </div>
-                      {/* <div className="pt-6 border-t border-gray-200 dark:border-neutral-800">
-                         <SubSection title="Alternative Logo Idea" description="This concept presents an alternative logotype. It's not necessary, but an idea.">
-                            <div className="flex flex-col sm:flex-row items-center gap-8">
-                                <div className="p-8 bg-white rounded-xl border border-gray-200 dark:border-neutral-700 text-center">
-                                    <img src="https://i.postimg.cc/LsYBxpz6/Frame-3.png" alt="Alternative Logo Idea" className="h-10" />
-                                    <p className="text-sm mt-4 text-gray-600">Possible adjustment to original P</p>
-                                </div>
-                                <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 text-center">
-                                  <img src="https://i.postimg.cc/pTt860gF/Frame-12-2.png" alt="Updated Logo Light Mode" className="h-10" />
-                                  <p className="text-sm mt-4 text-gray-600">Default (Light BG)</p>
-                              </div>
-                              <div className="p-8 bg-neutral-900 rounded-xl border border-neutral-800 text-center">
-                                  <img src="https://i.postimg.cc/prrdGzXj/Frame-13-3.png" alt="Updated Logo Dark Mode" className="h-10" />
-                                  <p className="text-sm mt-4 text-neutral-400">Dark Mode (Dark BG)</p>
-                              </div>
-                            </div>
-                        </SubSection>
-                      </div> */}
-                  </div>
-              </SubSection>
-              {/* <SubSection title="Logo Mark" description="The brand's abstract logo mark. It can be used in various sizes where the brand is already established.">
-                  <div className="flex items-end gap-8 text-center">
-                      <div className="flex flex-col items-center">
-                          <img src="https://i.postimg.cc/Vvfp2vsc/Frame-23-6.png" alt="Logo Mark Large" className="w-48" />
-                          <p className="text-sm mt-4 text-gray-600 dark:text-neutral-400">Large</p>
-                      </div>
-                      <div className="flex flex-col items-center">
-                          <img src="https://i.postimg.cc/Vvfp2vsc/Frame-23-6.png" alt="Logo Mark Medium" className="w-32" />
-                          <p className="text-sm mt-4 text-gray-600 dark:text-neutral-400">Medium</p>
-                      </div>
-                      <div className="flex flex-col items-center">
-                          <img src="https://i.postimg.cc/Vvfp2vsc/Frame-23-6.png" alt="Logo Mark Small" className="w-24" />
-                          <p className="text-sm mt-4 text-gray-600 dark:text-neutral-400">Small</p>
-                      </div>
-                  </div>
-              </SubSection> */}
-              {/*<SubSection title="Logo Tile" description="A simplified, tileable version of the logo mark for use as a background pattern or subtle branding element.">
-                  <div className="flex items-end gap-8 text-center">
-                      <div className="flex flex-col items-center">
-                          <img src="https://i.postimg.cc/MHvXdNWx/circles-shape-15.png" alt="Logo Tile Large" className="w-32" />
-                          <p className="text-sm mt-4 text-gray-600 dark:text-neutral-400">Large</p>
-                      </div>
-                      <div className="flex flex-col items-center">
-                          <img src="https://i.postimg.cc/MHvXdNWx/circles-shape-15.png" alt="Logo Tile Medium" className="w-24" />
-                          <p className="text-sm mt-4 text-gray-600 dark:text-neutral-400">Medium</p>
-                      </div>
-                      <div className="flex flex-col items-center">
-                          <img src="https://i.postimg.cc/MHvXdNWx/circles-shape-15.png" alt="Logo Tile Small" className="w-16" />
-                          <p className="text-sm mt-4 text-gray-600 dark:text-neutral-400">Small</p>
-                      </div>
-                  </div>
-              </SubSection>*/}
-          </Section>
+         
           <Section id="colors" title="Colors">
               <SubSection title="Palette" description="The core color palette defines the brand's identity. Functional colors are used for specific actions like gameplay buttons.">
                   <div className="text-center">
@@ -604,7 +535,7 @@ const DecoratedMenuExample: React.FC<{ isCollapsed: boolean; title: string; }> =
           </Section>
 
           <Section id="decorations" title="Decorations">
-              <SubSection title="Decorative Icons" description="Specialized, stylized icons used for background elements and promotional flair. The motif of a pulse line ending in a circle is a direct visual reference to the brand's logo mark, reinforcing a cohesive and energetic identity.">
+              <SubSection title="Decorative Icons" description="Specialized, stylized icons used for background elements and promotional flair.">
                 <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
                     <div>
                         <div className="relative w-full h-40 rounded-xl shadow-lg border border-gray-200 dark:border-neutral-800 overflow-hidden bg-white dark:bg-neutral-900 flex items-center justify-center p-4">
