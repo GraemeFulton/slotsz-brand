@@ -8,10 +8,10 @@ const __dirname = path.dirname(__filename);
 const app = express();
 
 // Basic Auth middleware
-const basicAuth = (req, res, next) => {
+const basicAuth = (req, res, next) => { 
   const auth = req.headers.authorization;
-  const user = process.env.BASIC_AUTH_USER || 'admin';
-  const pass = process.env.BASIC_AUTH_PASS || 'Petugem-14';
+  const user = process.env.BASIC_AUTH_USER || 'slotsz';
+  const pass = process.env.BASIC_AUTH_PASS || 'slotsz';
 
   if (!auth) {
     res.setHeader('WWW-Authenticate', 'Basic realm="Secure Area"');
