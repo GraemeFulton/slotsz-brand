@@ -37,7 +37,7 @@ export const exclusiveGames: Game[] = [
   { id: 11, title: '777 Volt', subtitle: '777 Volt Gigablox', imageUrl: 'https://i.postimg.cc/pdHgKhbg/11364d9d-d0af-48b1-99a2-caf668eca682.png', tags: ['exclusive', 'new'], playingCount: 789 },
   { id: 10, title: '3 Pigs Bacon Bankroll', subtitle: 'Wolf Gold 4 Pack', imageUrl: 'https://i.postimg.cc/Bbb97XgM/31d506af-884c-4ff2-a91f-b22dfa8a5d9a.png', tags: ['new'], playingCount: 2543 },
   { id: 22, title: 'Gold Rush Gus', subtitle: 'Gold Rush Gus', imageUrl: 'https://i.postimg.cc/WbXLLmKS/97cfbcb0-a6aa-4745-9029-03f8f98f1dbc.png', tags: ['exclusive'], playingCount: 2876 },
-  { id: 12, title: 'Lucky Penny 2', subtitle: 'Lucky Penny 2 x1000', imageUrl: 'https://i.postimg.cc/L6r5fp9r/548ca1ea-f6f5-4b94-8112-66fb6ab53ae5.png', tags: ['exclusive', 'new'], playingCount: 1321 },
+  { id: 12, title: 'Lucky Penny 2', subtitle: 'Lucky Penny 2 x1000', imageUrl: 'https://i.postimg.cc/7Ynm9Tk9/749c6a48-9fa3-4197-b801-863cd76b2301.png', tags: ['exclusive', 'new'], playingCount: 1321 },
   { id: 21, title: 'Slotsz Party', subtitle: 'Slotsz Party Megaways', imageUrl: 'https://i.postimg.cc/DfR4Qs5j/54ad1b9e-9a5b-4732-a6cb-bc7da98a977b.png', tags: ['exclusive', 'new'], playingCount: 4321 },
   { id: 107, title: 'Buffalo Wild Charge', subtitle: 'Buffalo Wild Charge', imageUrl: 'https://i.postimg.cc/RZJNczRv/f3c1a1f0-0311-4fa4-8024-bd307ccf96cf.png', tags: ['new'], playingCount: 3456 },
   { id: 108, title: 'Lucky Penny 2', subtitle: 'Lucky Penny 2', imageUrl: 'https://i.postimg.cc/dtQ8gWs3/ee222b4e-53b9-4e95-b27d-a38220060057.png', tags: ['exclusive', 'new'], playingCount: 456 },
@@ -45,7 +45,7 @@ export const exclusiveGames: Game[] = [
   { id: 111, title: '777 Volt', subtitle: '777 Volt Gigablox', imageUrl: 'https://i.postimg.cc/pdHgKhbg/11364d9d-d0af-48b1-99a2-caf668eca682.png', tags: ['exclusive', 'new'], playingCount: 789 },
   { id: 110, title: '3 Pigs Bacon Bankroll', subtitle: 'Wolf Gold 4 Pack', imageUrl: 'https://i.postimg.cc/Bbb97XgM/31d506af-884c-4ff2-a91f-b22dfa8a5d9a.png', tags: ['new'], playingCount: 2543 },
   { id: 122, title: 'Gold Rush Gus', subtitle: 'Gold Rush Gus', imageUrl: 'https://i.postimg.cc/WbXLLmKS/97cfbcb0-a6aa-4745-9029-03f8f98f1dbc.png', tags: ['exclusive'], playingCount: 2876 },
-  { id: 112, title: 'Lucky Penny 2', subtitle: 'Lucky Penny 2 x1000', imageUrl: 'https://i.postimg.cc/L6r5fp9r/548ca1ea-f6f5-4b94-8112-66fb6ab53ae5.png', tags: ['exclusive', 'new'], playingCount: 1321 },
+  { id: 112, title: 'Lucky Penny 2', subtitle: 'Lucky Penny 2 x1000', imageUrl: 'https://i.postimg.cc/7Ynm9Tk9/749c6a48-9fa3-4197-b801-863cd76b2301.png', tags: ['exclusive', 'new'], playingCount: 1321 },
   { id: 121, title: 'Slotsz Party', subtitle: 'Slotsz Party Megaways', imageUrl: 'https://i.postimg.cc/DfR4Qs5j/54ad1b9e-9a5b-4732-a6cb-bc7da98a977b.png', tags: ['exclusive', 'new'], playingCount: 4321 },
 ];
 
